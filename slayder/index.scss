@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+body{
+    background-color: rgb(7, 87, 0);
+
+}
+.MTB{
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+
+
+
+    .btn{
+        width: 150px;
+        color: blue;
+        font-size: 30px;
+        background-color: aqua;
+        border: none;
+        border-radius: 20px;
+       
+    }
+    
+}
+.btn:hover {
+    background-color: rgb(21, 255, 0);
+    color: hotpink;
+  }
+
+.cities{
+    display: flex;
+    gap: 40px;
+    background-color: antiquewhite;
+    padding: 30px;
+    flex-wrap: wrap;
+
+    .text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 30px;
+        img{
+            border-radius: 30px;
+        }
+    }
+}
